@@ -1,0 +1,24 @@
+PODS:
+  - EasyRealm (1.0.0):
+    - RealmSwift (~> 2.4.0)
+  - Realm (2.4.3):
+    - Realm/Headers (= 2.4.3)
+  - Realm/Headers (2.4.3)
+  - RealmSwift (2.4.3):
+    - Realm (= 2.4.3)
+
+DEPENDENCIES:
+  - EasyRealm (from `../`)
+
+EXTERNAL SOURCES:
+  EasyRealm:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  EasyRealm: 5cf4ee28abb0faac8992fc1575ac2fff4b0022a1
+  Realm: e08d60b0048ccccd3949c8c28a92c4db5712d7e9
+  RealmSwift: 30d49739ccb3385d201242736ca4dda56aec9dfc
+
+PODFILE CHECKSUM: 75271464d388777fdf0703576b224eaba6178765
+
+COCOAPODS: 1.2.0

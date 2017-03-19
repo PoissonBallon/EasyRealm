@@ -1,0 +1,9 @@
+use_frameworks!
+
+target 'EasyRealm_Example' do
+  pod 'EasyRealm', :path => '../'
+
+  target 'EasyRealm_Tests' do
+    inherit! :search_paths
+  end
+end
