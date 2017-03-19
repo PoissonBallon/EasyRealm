@@ -115,10 +115,6 @@ it, simply add the following line to your Podfile:
 pod "EasyRealm", '~> 1.0.0'
 ```
 
-## Author
-
-Allan Vialatte, allan.vialatte@icloud.com
-
 ## License
 
 MagicalRealm is available under the MIT license. See the LICENSE file for more info.
