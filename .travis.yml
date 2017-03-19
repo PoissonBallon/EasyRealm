@@ -1,18 +1,16 @@
 language: objective-c
+osx_image: xcode8.2
 xcode_project: Example/EasyRealm.xcworkspace
 before_install:
   - gem install slather --no-rdoc --no-ri --no-document --quiet
-install:
-- brew remove --force xctool
-- brew install xctool --HEAD
-
+  - gem install fastlane -NV
 before_script:
 #If one of this failed we have error and all process is stopped
 - cd Example
 - pod install --repo-update
 
 script:
-- xctool run-tests -workspace EasyRealm.xcworkspace -scheme EasyRealm-Example -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 6' GCC_INSTRUMENT_PROGRAM_FLOW_ARCS=YES GCC_GENERATE_TEST_COVERAGE_FILES=YES
+- fastlane scan -s EasyRealm-Example --device "iPhone 6" --clean --code_coverage
 
 after_success:
 - cd $TRAVIS_BUILD_DIR && slather
