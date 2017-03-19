@@ -1,0 +1,7 @@
+# .slather.yml
+
+coverage_service: coveralls
+xcodeproj: Example/EasyRealm.xcodeproj
+scheme: EasyRealm-Example
+ignore:
+  - Example/Pods/*

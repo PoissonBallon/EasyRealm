@@ -5,13 +5,15 @@
     EasyRealm
   </a>
 </h3>
--------
+
+------
 
 # EasyRealm
 
-[![Build Status](https://travis-ci.com/PoissonBallon/EasyRealm.svg?token=74N5HyPS1isT7y5b1HEA&branch=master)](https://travis-ci.com/PoissonBallon/EasyRealm)
-[![Swift 3](https://img.shields.io/badge/Language-Swift%203-orange.svg)](https://developer.apple.com/swift/)
 [![Version](https://img.shields.io/cocoapods/v/MagicalRealm.svg?style=flat)](http://cocoapods.org/pods/EasyRealm)
+[![Build Status](https://travis-ci.org/PoissonBallon/EasyRealm.svg?branch=master)](https://travis-ci.org/PoissonBallon/EasyRealm)
+[![Swift 3](https://img.shields.io/badge/Language-Swift%203-orange.svg)](https://developer.apple.com/swift/)
+[![Coverage Status](https://coveralls.io/repos/github/PoissonBallon/EasyRealm/badge.svg?branch=master)](https://coveralls.io/github/PoissonBallon/EasyRealm?branch=master)
 [![License](https://img.shields.io/cocoapods/l/MagicalRealm.svg?style=flat)](http://cocoapods.org/pods/EasyRealm)
 [![Platform](https://img.shields.io/cocoapods/p/MagicalRealm.svg?style=flat)](http://cocoapods.org/pods/EasyRealm)
 

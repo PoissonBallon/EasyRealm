@@ -1,5 +1,5 @@
 language: objective-c
-osx_image: xcode8.1
+osx_image: xcode8.2
 xcode_project: Example/EasyRealm.xcworkspace
 before_script:
 #If one of this failed we have error and all process is stopped
@@ -11,7 +11,6 @@ script:
 
 after_success:
 - cd ..
-- pod lib lint --verbose
 - coveralls
 deploy:
   provider: script
