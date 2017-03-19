@@ -2,6 +2,10 @@ language: objective-c
 xcode_project: Example/EasyRealm.xcworkspace
 before_install:
   - gem install slather --no-rdoc --no-ri --no-document --quiet
+install:
+- brew remove --force xctool
+- brew install xctool --HEAD
+
 before_script:
 #If one of this failed we have error and all process is stopped
 - cd Example
