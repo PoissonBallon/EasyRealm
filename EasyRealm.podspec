@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'EasyRealm'
   s.version          = '1.0.0'
-  s.summary          = 'EasyRealm is a micro-framework (less than 200 LOC) that helps you use Realm.'
+  s.summary          = 'EasyRealm is a micro-framework that helps you use Realm.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?

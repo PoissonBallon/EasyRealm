@@ -1,0 +1,20 @@
+language: objective-c
+osx_image: xcode8.1
+xcode_project: Example/EasyRealm.xcworkspace
+before_script:
+#If one of this failed we have error and all process is stopped
+- cd Example
+- pod install --repo-update
+
+script:
+- scan -s EasyRealm-Example --device "iPhone 6" --clean
+
+after_success:
+- cd ..
+- pod lib lint --verbose
+- coveralls
+deploy:
+  provider: script
+  script: ./scripts/push.sh
+  on:
+    tags: true
