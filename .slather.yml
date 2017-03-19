@@ -2,6 +2,8 @@
 
 coverage_service: coveralls
 xcodeproj: Example/EasyRealm.xcodeproj
+workspace: Example/EasyRealm.xcworkspace
 scheme: EasyRealm-Example
-ignore:
-  - Example/Pods/*
+source_directory: Pod/Classes
+binary_basename: EasyRealm
+input_format: profdata

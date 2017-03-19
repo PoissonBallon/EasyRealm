@@ -1,17 +1,19 @@
 language: objective-c
 osx_image: xcode8.2
 xcode_project: Example/EasyRealm.xcworkspace
+before_install: rvm use $RVM_RUBY_VERSION
+install: bundle install --without=documentation --path ../travis_bundle_dir
 before_script:
 #If one of this failed we have error and all process is stopped
 - cd Example
 - pod install --repo-update
 
 script:
-- scan -s EasyRealm-Example --device "iPhone 6" --clean
+- scan -s EasyRealm-Example --device "iPhone 6" --clean --code_coverage
 
 after_success:
 - cd ..
-- coveralls
+- slather
 deploy:
   provider: script
   script: ./scripts/push.sh
