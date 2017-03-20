@@ -117,4 +117,4 @@ pod "EasyRealm", '~> 1.0.0'
 
 ## License
 
-MagicalRealm is available under the MIT license. See the LICENSE file for more info.
+EasyRealm is available under the MIT license. See the LICENSE file for more info.
