@@ -10,12 +10,12 @@
 
 # EasyRealm
 
-[![Version](https://img.shields.io/cocoapods/v/MagicalRealm.svg?style=flat)](http://cocoapods.org/pods/EasyRealm)
+[![Version](https://img.shields.io/cocoapods/v/EasyRealm.svg?style=flat)](http://cocoapods.org/pods/EasyRealm)
+[![Platform](https://img.shields.io/cocoapods/p/EasyRealm.svg?style=flat)](http://cocoapods.org/pods/EasyRealm)
 [![Build Status](https://travis-ci.org/PoissonBallon/EasyRealm.svg?branch=master)](https://travis-ci.org/PoissonBallon/EasyRealm)
 [![Swift 3](https://img.shields.io/badge/Language-Swift%203-orange.svg)](https://developer.apple.com/swift/)
 [![Coverage Status](https://coveralls.io/repos/github/PoissonBallon/EasyRealm/badge.svg?branch=master)](https://coveralls.io/github/PoissonBallon/EasyRealm?branch=master)
-[![License](https://img.shields.io/cocoapods/l/MagicalRealm.svg?style=flat)](http://cocoapods.org/pods/EasyRealm)
-[![Platform](https://img.shields.io/cocoapods/p/MagicalRealm.svg?style=flat)](http://cocoapods.org/pods/EasyRealm)
+[![License](https://img.shields.io/cocoapods/l/EasyRealm.svg?style=flat)](http://cocoapods.org/pods/EasyRealm)
 
 EasyRealm is a micro-framework (less than 200 LOC) that helps you use Realm.
 
