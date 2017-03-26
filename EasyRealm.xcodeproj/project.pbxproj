@@ -205,12 +205,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B4CBDCC1E880B580044BCAA /* EasyRealm.swift in Sources */,
+				3B4CBDCD1E880B580044BCAA /* EasyRealmStatic.swift in Sources */,
+				3B4CBDD41E880B580044BCAA /* RealmQueue.swift in Sources */,
 				3B4CBDD31E880B580044BCAA /* ER_Variable.swift in Sources */,
 				3B4CBDCF1E880B580044BCAA /* ER_Edit.swift in Sources */,
-				3B4CBDCC1E880B580044BCAA /* EasyRealm.swift in Sources */,
-				3B4CBDD41E880B580044BCAA /* RealmQueue.swift in Sources */,
 				3B4CBDD21E880B580044BCAA /* ER_Save.swift in Sources */,
-				3B4CBDCD1E880B580044BCAA /* EasyRealmStatic.swift in Sources */,
 				3B4CBDD11E880B580044BCAA /* ER_Query.swift in Sources */,
 				3B4CBDCE1E880B580044BCAA /* ER_Delete.swift in Sources */,
 				3B4CBDD01E880B580044BCAA /* ER_Error.swift in Sources */,
@@ -338,7 +338,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = vialatte.EasyRealm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -362,6 +361,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = vialatte.EasyRealm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
