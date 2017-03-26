@@ -16,6 +16,6 @@ after_success:
 - cd $TRAVIS_BUILD_DIR && slather
 deploy:
   provider: script
-  script: ./scripts/deploy.sh
+  script: sh $TRAVIS_BUILD_DIR/scripts/deploy.sh
   on:
     tags: true
