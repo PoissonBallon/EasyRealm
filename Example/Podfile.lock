@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  EasyRealm: 5cf4ee28abb0faac8992fc1575ac2fff4b0022a1
+  EasyRealm: 93d350cc9db13ad54f986319f747764ed6bc3dc1
   Realm: e08d60b0048ccccd3949c8c28a92c4db5712d7e9
   RealmSwift: 30d49739ccb3385d201242736ca4dda56aec9dfc
 

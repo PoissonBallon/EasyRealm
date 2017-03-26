@@ -125,8 +125,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3B4CBD9E1E8803000044BCAA /* Build configuration list for PBXNativeTarget "EasyRealm" */;
 			buildPhases = (
-				3B4CBD911E8803000044BCAA /* Sources */,
 				3B4CBD921E8803000044BCAA /* Frameworks */,
+				3B4CBD911E8803000044BCAA /* Sources */,
 				3B4CBD931E8803000044BCAA /* Headers */,
 				3B4CBD941E8803000044BCAA /* Resources */,
 				3B4CBDB91E8807200044BCAA /* Carthage */,
