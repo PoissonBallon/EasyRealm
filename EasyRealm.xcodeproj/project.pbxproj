@@ -8,36 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		3B4CBD9B1E8803000044BCAA /* EasyRealm.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B4CBD991E8803000044BCAA /* EasyRealm.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3B4CBDAB1E8803690044BCAA /* EasyRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4CBDA21E8803690044BCAA /* EasyRealm.swift */; };
-		3B4CBDAC1E8803690044BCAA /* EasyRealmStatic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4CBDA31E8803690044BCAA /* EasyRealmStatic.swift */; };
-		3B4CBDAD1E8803690044BCAA /* ER_Delete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4CBDA41E8803690044BCAA /* ER_Delete.swift */; };
-		3B4CBDAE1E8803690044BCAA /* ER_Edit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4CBDA51E8803690044BCAA /* ER_Edit.swift */; };
-		3B4CBDAF1E8803690044BCAA /* ER_Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4CBDA61E8803690044BCAA /* ER_Error.swift */; };
-		3B4CBDB01E8803690044BCAA /* ER_Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4CBDA71E8803690044BCAA /* ER_Query.swift */; };
-		3B4CBDB11E8803690044BCAA /* ER_Save.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4CBDA81E8803690044BCAA /* ER_Save.swift */; };
-		3B4CBDB21E8803690044BCAA /* ER_Variable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4CBDA91E8803690044BCAA /* ER_Variable.swift */; };
-		3B4CBDB31E8803690044BCAA /* RealmQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4CBDAA1E8803690044BCAA /* RealmQueue.swift */; };
-		3B4CBDBD1E8807A20044BCAA /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B4CBDBB1E8807A20044BCAA /* Realm.framework */; };
-		3B4CBDBE1E8807A20044BCAA /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B4CBDBC1E8807A20044BCAA /* RealmSwift.framework */; };
+		3B4CBDC11E880B250044BCAA /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B4CBDBB1E8807A20044BCAA /* Realm.framework */; };
+		3B4CBDC21E880B250044BCAA /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B4CBDBC1E8807A20044BCAA /* RealmSwift.framework */; };
+		3B4CBDCC1E880B580044BCAA /* EasyRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4CBDC31E880B580044BCAA /* EasyRealm.swift */; };
+		3B4CBDCD1E880B580044BCAA /* EasyRealmStatic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4CBDC41E880B580044BCAA /* EasyRealmStatic.swift */; };
+		3B4CBDCE1E880B580044BCAA /* ER_Delete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4CBDC51E880B580044BCAA /* ER_Delete.swift */; };
+		3B4CBDCF1E880B580044BCAA /* ER_Edit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4CBDC61E880B580044BCAA /* ER_Edit.swift */; };
+		3B4CBDD01E880B580044BCAA /* ER_Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4CBDC71E880B580044BCAA /* ER_Error.swift */; };
+		3B4CBDD11E880B580044BCAA /* ER_Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4CBDC81E880B580044BCAA /* ER_Query.swift */; };
+		3B4CBDD21E880B580044BCAA /* ER_Save.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4CBDC91E880B580044BCAA /* ER_Save.swift */; };
+		3B4CBDD31E880B580044BCAA /* ER_Variable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4CBDCA1E880B580044BCAA /* ER_Variable.swift */; };
+		3B4CBDD41E880B580044BCAA /* RealmQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4CBDCB1E880B580044BCAA /* RealmQueue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3B4CBD961E8803000044BCAA /* EasyRealm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EasyRealm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B4CBD991E8803000044BCAA /* EasyRealm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EasyRealm.h; sourceTree = "<group>"; };
 		3B4CBD9A1E8803000044BCAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3B4CBDA21E8803690044BCAA /* EasyRealm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EasyRealm.swift; sourceTree = "<group>"; };
-		3B4CBDA31E8803690044BCAA /* EasyRealmStatic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EasyRealmStatic.swift; sourceTree = "<group>"; };
-		3B4CBDA41E8803690044BCAA /* ER_Delete.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ER_Delete.swift; sourceTree = "<group>"; };
-		3B4CBDA51E8803690044BCAA /* ER_Edit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ER_Edit.swift; sourceTree = "<group>"; };
-		3B4CBDA61E8803690044BCAA /* ER_Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ER_Error.swift; sourceTree = "<group>"; };
-		3B4CBDA71E8803690044BCAA /* ER_Query.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ER_Query.swift; sourceTree = "<group>"; };
-		3B4CBDA81E8803690044BCAA /* ER_Save.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ER_Save.swift; sourceTree = "<group>"; };
-		3B4CBDA91E8803690044BCAA /* ER_Variable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ER_Variable.swift; sourceTree = "<group>"; };
-		3B4CBDAA1E8803690044BCAA /* RealmQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmQueue.swift; sourceTree = "<group>"; };
 		3B4CBDB51E8806DC0044BCAA /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = ../Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
 		3B4CBDB61E8806DC0044BCAA /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = ../Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
 		3B4CBDBB1E8807A20044BCAA /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
 		3B4CBDBC1E8807A20044BCAA /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
+		3B4CBDC31E880B580044BCAA /* EasyRealm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EasyRealm.swift; sourceTree = "<group>"; };
+		3B4CBDC41E880B580044BCAA /* EasyRealmStatic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EasyRealmStatic.swift; sourceTree = "<group>"; };
+		3B4CBDC51E880B580044BCAA /* ER_Delete.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ER_Delete.swift; sourceTree = "<group>"; };
+		3B4CBDC61E880B580044BCAA /* ER_Edit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ER_Edit.swift; sourceTree = "<group>"; };
+		3B4CBDC71E880B580044BCAA /* ER_Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ER_Error.swift; sourceTree = "<group>"; };
+		3B4CBDC81E880B580044BCAA /* ER_Query.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ER_Query.swift; sourceTree = "<group>"; };
+		3B4CBDC91E880B580044BCAA /* ER_Save.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ER_Save.swift; sourceTree = "<group>"; };
+		3B4CBDCA1E880B580044BCAA /* ER_Variable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ER_Variable.swift; sourceTree = "<group>"; };
+		3B4CBDCB1E880B580044BCAA /* RealmQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmQueue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,8 +45,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B4CBDBD1E8807A20044BCAA /* Realm.framework in Frameworks */,
-				3B4CBDBE1E8807A20044BCAA /* RealmSwift.framework in Frameworks */,
+				3B4CBDC11E880B250044BCAA /* Realm.framework in Frameworks */,
+				3B4CBDC21E880B250044BCAA /* RealmSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,18 +83,17 @@
 		3B4CBDA11E8803100044BCAA /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				3B4CBDA21E8803690044BCAA /* EasyRealm.swift */,
-				3B4CBDA31E8803690044BCAA /* EasyRealmStatic.swift */,
-				3B4CBDA41E8803690044BCAA /* ER_Delete.swift */,
-				3B4CBDA51E8803690044BCAA /* ER_Edit.swift */,
-				3B4CBDA61E8803690044BCAA /* ER_Error.swift */,
-				3B4CBDA71E8803690044BCAA /* ER_Query.swift */,
-				3B4CBDA81E8803690044BCAA /* ER_Save.swift */,
-				3B4CBDA91E8803690044BCAA /* ER_Variable.swift */,
-				3B4CBDAA1E8803690044BCAA /* RealmQueue.swift */,
+				3B4CBDC31E880B580044BCAA /* EasyRealm.swift */,
+				3B4CBDC41E880B580044BCAA /* EasyRealmStatic.swift */,
+				3B4CBDC51E880B580044BCAA /* ER_Delete.swift */,
+				3B4CBDC61E880B580044BCAA /* ER_Edit.swift */,
+				3B4CBDC71E880B580044BCAA /* ER_Error.swift */,
+				3B4CBDC81E880B580044BCAA /* ER_Query.swift */,
+				3B4CBDC91E880B580044BCAA /* ER_Save.swift */,
+				3B4CBDCA1E880B580044BCAA /* ER_Variable.swift */,
+				3B4CBDCB1E880B580044BCAA /* RealmQueue.swift */,
 			);
-			name = Classes;
-			path = ../Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		3B4CBDB41E8806DC0044BCAA /* Frameworks */ = {
@@ -197,7 +196,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks";
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -206,15 +205,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B4CBDB21E8803690044BCAA /* ER_Variable.swift in Sources */,
-				3B4CBDAE1E8803690044BCAA /* ER_Edit.swift in Sources */,
-				3B4CBDAB1E8803690044BCAA /* EasyRealm.swift in Sources */,
-				3B4CBDB31E8803690044BCAA /* RealmQueue.swift in Sources */,
-				3B4CBDB11E8803690044BCAA /* ER_Save.swift in Sources */,
-				3B4CBDAC1E8803690044BCAA /* EasyRealmStatic.swift in Sources */,
-				3B4CBDB01E8803690044BCAA /* ER_Query.swift in Sources */,
-				3B4CBDAD1E8803690044BCAA /* ER_Delete.swift in Sources */,
-				3B4CBDAF1E8803690044BCAA /* ER_Error.swift in Sources */,
+				3B4CBDD31E880B580044BCAA /* ER_Variable.swift in Sources */,
+				3B4CBDCF1E880B580044BCAA /* ER_Edit.swift in Sources */,
+				3B4CBDCC1E880B580044BCAA /* EasyRealm.swift in Sources */,
+				3B4CBDD41E880B580044BCAA /* RealmQueue.swift in Sources */,
+				3B4CBDD21E880B580044BCAA /* ER_Save.swift in Sources */,
+				3B4CBDCD1E880B580044BCAA /* EasyRealmStatic.swift in Sources */,
+				3B4CBDD11E880B580044BCAA /* ER_Query.swift in Sources */,
+				3B4CBDCE1E880B580044BCAA /* ER_Delete.swift in Sources */,
+				3B4CBDD01E880B580044BCAA /* ER_Error.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
