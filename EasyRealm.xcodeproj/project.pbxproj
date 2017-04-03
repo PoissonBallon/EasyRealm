@@ -11,7 +11,6 @@
 		3B4CBDC11E880B250044BCAA /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B4CBDBB1E8807A20044BCAA /* Realm.framework */; };
 		3B4CBDC21E880B250044BCAA /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B4CBDBC1E8807A20044BCAA /* RealmSwift.framework */; };
 		3B4CBDCC1E880B580044BCAA /* EasyRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4CBDC31E880B580044BCAA /* EasyRealm.swift */; };
-		3B4CBDCD1E880B580044BCAA /* EasyRealmStatic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4CBDC41E880B580044BCAA /* EasyRealmStatic.swift */; };
 		3B4CBDCE1E880B580044BCAA /* ER_Delete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4CBDC51E880B580044BCAA /* ER_Delete.swift */; };
 		3B4CBDCF1E880B580044BCAA /* ER_Edit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4CBDC61E880B580044BCAA /* ER_Edit.swift */; };
 		3B4CBDD01E880B580044BCAA /* ER_Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4CBDC71E880B580044BCAA /* ER_Error.swift */; };
@@ -30,7 +29,6 @@
 		3B4CBDBB1E8807A20044BCAA /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
 		3B4CBDBC1E8807A20044BCAA /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
 		3B4CBDC31E880B580044BCAA /* EasyRealm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EasyRealm.swift; sourceTree = "<group>"; };
-		3B4CBDC41E880B580044BCAA /* EasyRealmStatic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EasyRealmStatic.swift; sourceTree = "<group>"; };
 		3B4CBDC51E880B580044BCAA /* ER_Delete.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ER_Delete.swift; sourceTree = "<group>"; };
 		3B4CBDC61E880B580044BCAA /* ER_Edit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ER_Edit.swift; sourceTree = "<group>"; };
 		3B4CBDC71E880B580044BCAA /* ER_Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ER_Error.swift; sourceTree = "<group>"; };
@@ -84,7 +82,6 @@
 			isa = PBXGroup;
 			children = (
 				3B4CBDC31E880B580044BCAA /* EasyRealm.swift */,
-				3B4CBDC41E880B580044BCAA /* EasyRealmStatic.swift */,
 				3B4CBDC51E880B580044BCAA /* ER_Delete.swift */,
 				3B4CBDC61E880B580044BCAA /* ER_Edit.swift */,
 				3B4CBDC71E880B580044BCAA /* ER_Error.swift */,
@@ -206,7 +203,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B4CBDCC1E880B580044BCAA /* EasyRealm.swift in Sources */,
-				3B4CBDCD1E880B580044BCAA /* EasyRealmStatic.swift in Sources */,
 				3B4CBDD41E880B580044BCAA /* RealmQueue.swift in Sources */,
 				3B4CBDD31E880B580044BCAA /* ER_Variable.swift in Sources */,
 				3B4CBDCF1E880B580044BCAA /* ER_Edit.swift in Sources */,
