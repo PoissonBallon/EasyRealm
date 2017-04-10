@@ -124,7 +124,15 @@ pod "EasyRealm", '~> 1.0.0'
 github 'PoissonBallon/EasyRealm'
 ```
 
+## Author
+
+
 
 ## License
 
 EasyRealm is available under the MIT license. See the LICENSE file for more info.
+
+## Other
+
+* Thanks to [@error32](http://savinien.net/) for logo 
+* Thanks to [@trpl](https://github.com/trpl) for text review
