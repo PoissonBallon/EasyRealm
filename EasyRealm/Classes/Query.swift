@@ -11,9 +11,13 @@ import RealmSwift
 
 public extension EasyRealmStatic where T:Object {
   
-  public func fromRealm<K>(with primaryKey:K) throws -> T? {
+  public func fromRealm<K>(with primaryKey:K) throws -> T {
     let realm = try Realm()
-    return realm.object(ofType: self.baseType, forPrimaryKey: primaryKey)
+    if let object = realm.object(ofType: self.baseType, forPrimaryKey: primaryKey) {
+      return object
+    } else {
+      throw EasyRealmError.ObjectWithPrimaryKeyNotFound
+    }
   }
   
   public func all() throws -> Results<T> {

@@ -12,4 +12,6 @@ enum EasyRealmError:Error {
   case RealmQueueCantBeCreate
   case ObjectCantBeResolved
   case ObjectHaveNotPrimaryKey
+  case ObjectWithPrimaryKeyNotFound
+  case ManagedVersionOfObjectDoesntExist
 }

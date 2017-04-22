@@ -1,5 +1,5 @@
 PODS:
-  - EasyRealm (1.1.1):
+  - EasyRealm (1.1.2):
     - RealmSwift (~> 2.4.0)
   - Realm (2.4.3):
     - Realm/Headers (= 2.4.3)
@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  EasyRealm: 6fe835b7412a336b20f03f3dc4d375a59a434971
+  EasyRealm: e0406ac9b9f18e551be5e52b12893bd0cbbfbc44
   Realm: e08d60b0048ccccd3949c8c28a92c4db5712d7e9
   RealmSwift: 30d49739ccb3385d201242736ca4dda56aec9dfc
 

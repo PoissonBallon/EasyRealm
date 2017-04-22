@@ -15,6 +15,7 @@ script:
 after_success:
 - cd $TRAVIS_BUILD_DIR && slather
 deploy:
+  skip_cleanup: true
   provider: script
   script: sh $TRAVIS_BUILD_DIR/scripts/deploy.sh
   on:
