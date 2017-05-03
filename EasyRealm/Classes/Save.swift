@@ -29,7 +29,7 @@ fileprivate extension EasyRealm where T: Object {
   
   fileprivate func managed_save(update:Bool) throws -> T {
     let ref = ThreadSafeReference(to: self.base)
-    guard let rq = EasyRealmQueue.shared else {
+    guard let rq = EasyRealmQueue() else {
       throw EasyRealmError.RealmQueueCantBeCreate
     }
     return try rq.queue.sync {
