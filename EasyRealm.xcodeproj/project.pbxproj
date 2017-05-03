@@ -11,13 +11,14 @@
 		3B4CBDC11E880B250044BCAA /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B4CBDBB1E8807A20044BCAA /* Realm.framework */; };
 		3B4CBDC21E880B250044BCAA /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B4CBDBC1E8807A20044BCAA /* RealmSwift.framework */; };
 		3B4CBDCC1E880B580044BCAA /* EasyRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4CBDC31E880B580044BCAA /* EasyRealm.swift */; };
-		3B4CBDCE1E880B580044BCAA /* ER_Delete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4CBDC51E880B580044BCAA /* ER_Delete.swift */; };
-		3B4CBDCF1E880B580044BCAA /* ER_Edit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4CBDC61E880B580044BCAA /* ER_Edit.swift */; };
-		3B4CBDD01E880B580044BCAA /* ER_Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4CBDC71E880B580044BCAA /* ER_Error.swift */; };
-		3B4CBDD11E880B580044BCAA /* ER_Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4CBDC81E880B580044BCAA /* ER_Query.swift */; };
-		3B4CBDD21E880B580044BCAA /* ER_Save.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4CBDC91E880B580044BCAA /* ER_Save.swift */; };
-		3B4CBDD31E880B580044BCAA /* ER_Variable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4CBDCA1E880B580044BCAA /* ER_Variable.swift */; };
-		3B4CBDD41E880B580044BCAA /* RealmQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4CBDCB1E880B580044BCAA /* RealmQueue.swift */; };
+		3B760B311EBA8FF50012B56A /* Delete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B760B291EBA8FF50012B56A /* Delete.swift */; };
+		3B760B321EBA8FF50012B56A /* Variable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B760B2A1EBA8FF50012B56A /* Variable.swift */; };
+		3B760B331EBA8FF50012B56A /* EasyRealmList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B760B2B1EBA8FF50012B56A /* EasyRealmList.swift */; };
+		3B760B341EBA8FF50012B56A /* EasyRealmQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B760B2C1EBA8FF50012B56A /* EasyRealmQueue.swift */; };
+		3B760B351EBA8FF50012B56A /* Edit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B760B2D1EBA8FF50012B56A /* Edit.swift */; };
+		3B760B361EBA8FF50012B56A /* Save.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B760B2E1EBA8FF50012B56A /* Save.swift */; };
+		3B760B371EBA8FF50012B56A /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B760B2F1EBA8FF50012B56A /* Error.swift */; };
+		3B760B381EBA8FF50012B56A /* Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B760B301EBA8FF50012B56A /* Query.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,13 +30,14 @@
 		3B4CBDBB1E8807A20044BCAA /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
 		3B4CBDBC1E8807A20044BCAA /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
 		3B4CBDC31E880B580044BCAA /* EasyRealm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EasyRealm.swift; sourceTree = "<group>"; };
-		3B4CBDC51E880B580044BCAA /* ER_Delete.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ER_Delete.swift; sourceTree = "<group>"; };
-		3B4CBDC61E880B580044BCAA /* ER_Edit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ER_Edit.swift; sourceTree = "<group>"; };
-		3B4CBDC71E880B580044BCAA /* ER_Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ER_Error.swift; sourceTree = "<group>"; };
-		3B4CBDC81E880B580044BCAA /* ER_Query.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ER_Query.swift; sourceTree = "<group>"; };
-		3B4CBDC91E880B580044BCAA /* ER_Save.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ER_Save.swift; sourceTree = "<group>"; };
-		3B4CBDCA1E880B580044BCAA /* ER_Variable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ER_Variable.swift; sourceTree = "<group>"; };
-		3B4CBDCB1E880B580044BCAA /* RealmQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmQueue.swift; sourceTree = "<group>"; };
+		3B760B291EBA8FF50012B56A /* Delete.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Delete.swift; sourceTree = "<group>"; };
+		3B760B2A1EBA8FF50012B56A /* Variable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Variable.swift; sourceTree = "<group>"; };
+		3B760B2B1EBA8FF50012B56A /* EasyRealmList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EasyRealmList.swift; sourceTree = "<group>"; };
+		3B760B2C1EBA8FF50012B56A /* EasyRealmQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EasyRealmQueue.swift; sourceTree = "<group>"; };
+		3B760B2D1EBA8FF50012B56A /* Edit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Edit.swift; sourceTree = "<group>"; };
+		3B760B2E1EBA8FF50012B56A /* Save.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Save.swift; sourceTree = "<group>"; };
+		3B760B2F1EBA8FF50012B56A /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		3B760B301EBA8FF50012B56A /* Query.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Query.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,14 +83,15 @@
 		3B4CBDA11E8803100044BCAA /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				3B760B291EBA8FF50012B56A /* Delete.swift */,
+				3B760B2A1EBA8FF50012B56A /* Variable.swift */,
+				3B760B2B1EBA8FF50012B56A /* EasyRealmList.swift */,
+				3B760B2C1EBA8FF50012B56A /* EasyRealmQueue.swift */,
+				3B760B2D1EBA8FF50012B56A /* Edit.swift */,
+				3B760B2E1EBA8FF50012B56A /* Save.swift */,
+				3B760B2F1EBA8FF50012B56A /* Error.swift */,
+				3B760B301EBA8FF50012B56A /* Query.swift */,
 				3B4CBDC31E880B580044BCAA /* EasyRealm.swift */,
-				3B4CBDC51E880B580044BCAA /* ER_Delete.swift */,
-				3B4CBDC61E880B580044BCAA /* ER_Edit.swift */,
-				3B4CBDC71E880B580044BCAA /* ER_Error.swift */,
-				3B4CBDC81E880B580044BCAA /* ER_Query.swift */,
-				3B4CBDC91E880B580044BCAA /* ER_Save.swift */,
-				3B4CBDCA1E880B580044BCAA /* ER_Variable.swift */,
-				3B4CBDCB1E880B580044BCAA /* RealmQueue.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -203,13 +206,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B4CBDCC1E880B580044BCAA /* EasyRealm.swift in Sources */,
-				3B4CBDD41E880B580044BCAA /* RealmQueue.swift in Sources */,
-				3B4CBDD31E880B580044BCAA /* ER_Variable.swift in Sources */,
-				3B4CBDCF1E880B580044BCAA /* ER_Edit.swift in Sources */,
-				3B4CBDD21E880B580044BCAA /* ER_Save.swift in Sources */,
-				3B4CBDD11E880B580044BCAA /* ER_Query.swift in Sources */,
-				3B4CBDCE1E880B580044BCAA /* ER_Delete.swift in Sources */,
-				3B4CBDD01E880B580044BCAA /* ER_Error.swift in Sources */,
+				3B760B351EBA8FF50012B56A /* Edit.swift in Sources */,
+				3B760B331EBA8FF50012B56A /* EasyRealmList.swift in Sources */,
+				3B760B311EBA8FF50012B56A /* Delete.swift in Sources */,
+				3B760B361EBA8FF50012B56A /* Save.swift in Sources */,
+				3B760B341EBA8FF50012B56A /* EasyRealmQueue.swift in Sources */,
+				3B760B381EBA8FF50012B56A /* Query.swift in Sources */,
+				3B760B371EBA8FF50012B56A /* Error.swift in Sources */,
+				3B760B321EBA8FF50012B56A /* Variable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
