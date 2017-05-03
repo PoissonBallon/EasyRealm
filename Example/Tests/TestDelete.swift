@@ -64,7 +64,7 @@ class TestDelete: XCTestCase {
   func testDeleteCascadeComplexManagedObject() {
     let trainer = Trainer()
     let pokedex = Pokedex()
-    trainer.pokemons.append(HelpPokemon.generateCapturedRandomPokemon())
+    trainer.pokemons.append(objectsIn: HelpPokemon.allPokedex())
     trainer.pokedex = pokedex
     try! trainer.er.save(update: true)
 
@@ -84,7 +84,7 @@ class TestDelete: XCTestCase {
   func testDeleteCascadeComplexUnManagedObject() {
     let trainer = Trainer()
     let pokedex = Pokedex()
-    trainer.pokemons.append(HelpPokemon.generateCapturedRandomPokemon())
+    trainer.pokemons.append(objectsIn: HelpPokemon.allPokedex())
     trainer.pokedex = pokedex
     try! trainer.er.save(update: true)
     
