@@ -10,7 +10,7 @@ import XCTest
 import RealmSwift
 import EasyRealm
 
-class Test_Variable: XCTestCase {
+class TestVariable: XCTestCase {
   
   
   let testPokemon = ["Bulbasaur", "Ivysaur", "Venusaur","Charmander","Charmeleon","Charizard"]
@@ -66,6 +66,30 @@ class Test_Variable: XCTestCase {
     XCTAssertNotNil(unmnaged)
     XCTAssertFalse(unmnaged.er.isManaged)
     XCTAssertEqual(unmnaged.pokeball?.branding, "Masterball")
+  }
+  
+  func testComplexObject() {
+    let trainer = Trainer()
+    let pokedex = Pokedex()
+    trainer.pokemons.append(HelpPokemon.generateCapturedRandomPokemon())
+    trainer.pokedex = pokedex
+
+    try! trainer.er.save(update: true)
+    let managed = trainer.er.managed!
+    XCTAssertTrue(managed.er.isManaged)
+    XCTAssertTrue(managed.pokedex!.er.isManaged)
+    XCTAssertFalse(managed.pokemons.isEmpty)
+    managed.pokemons.forEach {
+      XCTAssertTrue($0.er.isManaged)
+    }
+    
+    let unmanaged = managed.er.unmanaged
+    XCTAssertFalse(unmanaged.er.isManaged)
+    XCTAssertFalse(unmanaged.pokedex!.er.isManaged)
+    XCTAssertFalse(unmanaged.pokemons.isEmpty)
+    unmanaged.pokemons.forEach {
+      XCTAssertFalse($0.er.isManaged)
+    }
   }
   
   

@@ -9,7 +9,7 @@ import XCTest
 import RealmSwift
 import EasyRealm
 
-class Test_Edit: XCTestCase {
+class TestEdit: XCTestCase {
   
   let testPokemon = ["Bulbasaur", "Ivysaur", "Venusaur","Charmander","Charmeleon","Charizard"]
   

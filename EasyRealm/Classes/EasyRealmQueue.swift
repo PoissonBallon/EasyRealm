@@ -10,9 +10,10 @@ import Foundation
 import RealmSwift
 
 
-internal struct RealmQueue {
+internal struct EasyRealmQueue {
   let realm:Realm
   let queue:DispatchQueue
+  static let shared = EasyRealmQueue()
   
   init?() {
     queue = DispatchQueue(label: UUID().uuidString)

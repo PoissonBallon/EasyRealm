@@ -14,6 +14,10 @@ final class Pokeball:Object {
   dynamic var level = 1
   dynamic var branding = ""
   
+  override static func primaryKey() -> String? {
+    return "identifier"
+  }
+  
   static func create() -> Pokeball {
     let ball = Pokeball()
     ball.level = Int(arc4random()) % 5

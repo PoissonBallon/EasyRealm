@@ -9,10 +9,13 @@
 /* Begin PBXBuildFile section */
 		3B7CD02B1E76DFAF00011116 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7CD01E1E76DF6400011116 /* Pokemon.swift */; };
 		3B7CD02C1E76DFAF00011116 /* PokemonHelp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7CD01F1E76DF6400011116 /* PokemonHelp.swift */; };
-		3B7CD02D1E76DFAF00011116 /* Test_Delete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7CD0201E76DF6400011116 /* Test_Delete.swift */; };
-		3B7CD02E1E76DFAF00011116 /* Test_Edit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7CD0211E76DF6400011116 /* Test_Edit.swift */; };
-		3B7CD02F1E76DFAF00011116 /* Test_Save.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7CD0221E76DF6400011116 /* Test_Save.swift */; };
-		3B7CD0301E76DFAF00011116 /* Test_Variable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7CD0231E76DF6400011116 /* Test_Variable.swift */; };
+		3B7CD02D1E76DFAF00011116 /* TestDelete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7CD0201E76DF6400011116 /* TestDelete.swift */; };
+		3B7CD02E1E76DFAF00011116 /* TestEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7CD0211E76DF6400011116 /* TestEdit.swift */; };
+		3B7CD02F1E76DFAF00011116 /* TestSave.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7CD0221E76DF6400011116 /* TestSave.swift */; };
+		3B7CD0301E76DFAF00011116 /* TestVariable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7CD0231E76DF6400011116 /* TestVariable.swift */; };
+		3BBFC7611EB7AE3A0003B466 /* TestMeasure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBFC7601EB7AE3A0003B466 /* TestMeasure.swift */; };
+		3BC33AF61EAB98930019E72C /* Trainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC33AF41EAB98930019E72C /* Trainer.swift */; };
+		3BC33AFA1EAB98F70019E72C /* Pokedex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC33AF81EAB98F70019E72C /* Pokedex.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -37,10 +40,13 @@
 		0A4DA23DD187DD2E8EEA00C8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		3B7CD01E1E76DF6400011116 /* Pokemon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
 		3B7CD01F1E76DF6400011116 /* PokemonHelp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonHelp.swift; sourceTree = "<group>"; };
-		3B7CD0201E76DF6400011116 /* Test_Delete.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test_Delete.swift; sourceTree = "<group>"; };
-		3B7CD0211E76DF6400011116 /* Test_Edit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test_Edit.swift; sourceTree = "<group>"; };
-		3B7CD0221E76DF6400011116 /* Test_Save.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test_Save.swift; sourceTree = "<group>"; };
-		3B7CD0231E76DF6400011116 /* Test_Variable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test_Variable.swift; sourceTree = "<group>"; };
+		3B7CD0201E76DF6400011116 /* TestDelete.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestDelete.swift; sourceTree = "<group>"; };
+		3B7CD0211E76DF6400011116 /* TestEdit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestEdit.swift; sourceTree = "<group>"; };
+		3B7CD0221E76DF6400011116 /* TestSave.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestSave.swift; sourceTree = "<group>"; };
+		3B7CD0231E76DF6400011116 /* TestVariable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestVariable.swift; sourceTree = "<group>"; };
+		3BBFC7601EB7AE3A0003B466 /* TestMeasure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestMeasure.swift; sourceTree = "<group>"; };
+		3BC33AF41EAB98930019E72C /* Trainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trainer.swift; sourceTree = "<group>"; };
+		3BC33AF81EAB98F70019E72C /* Pokedex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pokedex.swift; sourceTree = "<group>"; };
 		467AB1A027915AF4125C6A80 /* Pods_EasyRealm_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyRealm_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AC0DD2B71C5BD7C3E4B045D /* Pods-EasyRealm_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyRealm_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EasyRealm_Tests/Pods-EasyRealm_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* EasyRealm_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyRealm_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -125,12 +131,15 @@
 		607FACE81AFB9204008FA782 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				3BC33AF41EAB98930019E72C /* Trainer.swift */,
+				3BC33AF81EAB98F70019E72C /* Pokedex.swift */,
 				3B7CD01E1E76DF6400011116 /* Pokemon.swift */,
 				3B7CD01F1E76DF6400011116 /* PokemonHelp.swift */,
-				3B7CD0201E76DF6400011116 /* Test_Delete.swift */,
-				3B7CD0211E76DF6400011116 /* Test_Edit.swift */,
-				3B7CD0221E76DF6400011116 /* Test_Save.swift */,
-				3B7CD0231E76DF6400011116 /* Test_Variable.swift */,
+				3B7CD0201E76DF6400011116 /* TestDelete.swift */,
+				3B7CD0211E76DF6400011116 /* TestEdit.swift */,
+				3B7CD0221E76DF6400011116 /* TestSave.swift */,
+				3B7CD0231E76DF6400011116 /* TestVariable.swift */,
+				3BBFC7601EB7AE3A0003B466 /* TestMeasure.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
 			path = Tests;
@@ -385,12 +394,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BC33AFA1EAB98F70019E72C /* Pokedex.swift in Sources */,
+				3BBFC7611EB7AE3A0003B466 /* TestMeasure.swift in Sources */,
+				3BC33AF61EAB98930019E72C /* Trainer.swift in Sources */,
 				3B7CD02C1E76DFAF00011116 /* PokemonHelp.swift in Sources */,
-				3B7CD0301E76DFAF00011116 /* Test_Variable.swift in Sources */,
-				3B7CD02D1E76DFAF00011116 /* Test_Delete.swift in Sources */,
-				3B7CD02F1E76DFAF00011116 /* Test_Save.swift in Sources */,
+				3B7CD0301E76DFAF00011116 /* TestVariable.swift in Sources */,
+				3B7CD02D1E76DFAF00011116 /* TestDelete.swift in Sources */,
+				3B7CD02F1E76DFAF00011116 /* TestSave.swift in Sources */,
 				3B7CD02B1E76DFAF00011116 /* Pokemon.swift in Sources */,
-				3B7CD02E1E76DFAF00011116 /* Test_Edit.swift in Sources */,
+				3B7CD02E1E76DFAF00011116 /* TestEdit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

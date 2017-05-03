@@ -10,7 +10,7 @@ import XCTest
 import RealmSwift
 import EasyRealm
 
-class Test_Delete: XCTestCase {
+class TestDelete: XCTestCase {
     
   let testPokemon = ["Bulbasaur", "Ivysaur", "Venusaur","Charmander","Charmeleon","Charizard"]
   
@@ -59,6 +59,45 @@ class Test_Delete: XCTestCase {
     
     let count = try! Pokemon.er.all().count
     XCTAssertEqual(count, 0)
+  }
+  
+  func testDeleteCascadeComplexManagedObject() {
+    let trainer = Trainer()
+    let pokedex = Pokedex()
+    trainer.pokemons.append(HelpPokemon.generateCapturedRandomPokemon())
+    trainer.pokedex = pokedex
+    try! trainer.er.save(update: true)
+
+
+    XCTAssertEqual(try! Trainer.er.all().count, 1)
+    XCTAssertEqual(try! Pokedex.er.all().count, 1)
+    XCTAssertEqual(try! Pokemon.er.all().count, HelpPokemon.allPokedex().count)
+
+    let managed = trainer.er.managed!
+    try! managed.er.delete(with: .cascade)
+    
+    XCTAssertEqual(try! Trainer.er.all().count, 0)
+    XCTAssertEqual(try! Pokedex.er.all().count, 0)
+    XCTAssertEqual(try! Pokemon.er.all().count, 0)
+  }
+
+  func testDeleteCascadeComplexUnManagedObject() {
+    let trainer = Trainer()
+    let pokedex = Pokedex()
+    trainer.pokemons.append(HelpPokemon.generateCapturedRandomPokemon())
+    trainer.pokedex = pokedex
+    try! trainer.er.save(update: true)
+    
+    
+    XCTAssertEqual(try! Trainer.er.all().count, 1)
+    XCTAssertEqual(try! Pokedex.er.all().count, 1)
+    XCTAssertEqual(try! Pokemon.er.all().count, HelpPokemon.allPokedex().count)
+    
+    try! trainer.er.delete(with: .cascade)
+    
+    XCTAssertEqual(try! Trainer.er.all().count, 0)
+    XCTAssertEqual(try! Pokedex.er.all().count, 0)
+    XCTAssertEqual(try! Pokemon.er.all().count, 0)
   }
   
 }

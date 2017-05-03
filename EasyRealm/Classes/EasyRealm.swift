@@ -27,10 +27,8 @@ public final class EasyRealmStatic<T> {
 
 public protocol EasyRealmCompatible {
   associatedtype CompatibleType
-  
   var er: EasyRealm<CompatibleType> { get }
   static var er: EasyRealmStatic<CompatibleType> { get }
-
 }
 
 public extension EasyRealmCompatible {
@@ -41,5 +39,6 @@ public extension EasyRealmCompatible {
     get { return EasyRealmStatic(Self.self) }
   }
 }
+
 
 extension Object:EasyRealmCompatible {}

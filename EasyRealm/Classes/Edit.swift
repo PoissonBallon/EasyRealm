@@ -22,7 +22,7 @@ extension EasyRealm where T:Object {
 fileprivate extension EasyRealm where T:Object {
 
   fileprivate func managed_edit(_ closure: @escaping (_ T:T) -> Void) throws {
-    guard let rq = RealmQueue() else { throw EasyRealmError.RealmQueueCantBeCreate }
+    guard let rq = EasyRealmQueue.shared else { throw EasyRealmError.RealmQueueCantBeCreate }
     let ref = ThreadSafeReference(to: self.base)
     try rq.queue.sync {
       guard let object = rq.realm.resolve(ref) else { throw EasyRealmError.ObjectCantBeResolved }
