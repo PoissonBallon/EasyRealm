@@ -11,13 +11,13 @@ import Realm
 import RealmSwift
 
 public enum EasyRealmDeleteMethod {
-  case normal
+  case simple
   case cascade
 }
 
 public extension EasyRealmStatic where T:Object {
   
-  public func deleteAll(with method:EasyRealmDeleteMethod = .normal) throws {
+  public func deleteAll() throws {
     let realm = try Realm()
     try realm.write {
       realm.delete(realm.objects(self.baseType))
@@ -28,9 +28,9 @@ public extension EasyRealmStatic where T:Object {
 
 public extension EasyRealm where T:Object {
   
-  public func delete(with method:EasyRealmDeleteMethod = .normal) throws {
+  public func delete(with method:EasyRealmDeleteMethod = .simple) throws {
     switch method {
-    case .normal:     self.isManaged ? try managedNormalDelete() : try unmanagedNormalDelete()
+    case .simple:     self.isManaged ? try managedSimpleDelete() : try unmanagedSimpleDelete()
     case .cascade:    self.isManaged ? try managedCascadeDelete() : try unmanagedCascadeDelete()
     }
   }
@@ -42,18 +42,18 @@ public extension EasyRealm where T:Object {
 //Normal Way
 fileprivate extension EasyRealm where T: Object {
   
-  fileprivate func managedNormalDelete() throws {
+  fileprivate func managedSimpleDelete() throws {
     guard let rq = EasyRealmQueue() else { throw EasyRealmError.RealmQueueCantBeCreate }
     let ref = ThreadSafeReference(to: self.base)
     try rq.queue.sync {
       guard let object = rq.realm.resolve(ref) else { throw EasyRealmError.ObjectCantBeResolved }
       try rq.realm.write {
-        EasyRealm.normalDelete(this: object, in: rq)
+        EasyRealm.simpleDelete(this: object, in: rq)
       }
     }
   }
   
-  fileprivate func unmanagedNormalDelete() throws  {
+  fileprivate func unmanagedSimpleDelete() throws  {
     guard let rq = EasyRealmQueue() else { throw EasyRealmError.RealmQueueCantBeCreate }
     guard let key = T.primaryKey() else { throw EasyRealmError.ObjectCantBeResolved }
     
@@ -61,13 +61,13 @@ fileprivate extension EasyRealm where T: Object {
       let value = self.base.value(forKey: key)
       if let object = rq.realm.object(ofType: T.self, forPrimaryKey: value) {
         try rq.realm.write {
-          EasyRealm.normalDelete(this: object, in: rq)
+          EasyRealm.simpleDelete(this: object, in: rq)
         }
       }
     }
   }
   
-  fileprivate static func normalDelete(this object:Object, in queue:EasyRealmQueue) {
+  fileprivate static func simpleDelete(this object:Object, in queue:EasyRealmQueue) {
     queue.realm.delete(object)
   }
   

@@ -21,6 +21,16 @@
 
 EasyRealm is a micro-framework (less than 200 LOC) that helps you use Realm.
 
+
+## Keys Features
+
+EasyRealm import many features as :
+
+* Deep cascade deleting
+* Deep unmanaged object
+* Get managed object from unmanaged object.
+* Multihread Action (save / edit / delete / query)
+
 ## Promise
 
 EasyRealm make 4 promises :
@@ -30,7 +40,7 @@ EasyRealm make 4 promises :
 * EasyRealm never manipulate thread behind your back, you keep full control of your process flow.
 * EasyRealm never handle Error for you.
 
-## Features
+## Exemples
 
 ### Using
 
@@ -45,9 +55,9 @@ To save an object :
 
 ```swift
 let pokemon = Pokemon()
-try! pokemon.er.save(update: true)
+try pokemon.er.save(update: true)
 //OR
-let managed = try! pokemon.mr.saved(update: true)
+let managed = try pokemon.mr.saved(update: true)
 ```
 
 ### Edit
@@ -57,7 +67,7 @@ To edit an object :
 ```swift
 let pokemon = Pokemon()
 
-try! pokemon.er.edit {
+try pokemon.er.edit {
   $0.level = 42
 }
 ```
@@ -70,19 +80,24 @@ To delete an object :
 ```swift
 let pokemon = Pokemon(name: "Pikachu")
 
-try! pokemon.er.delete()
+try pokemon.er.delete()
+//or
+try pokemon.er.delete(with: .simple)
+//or
+try pokemon.er.delete(with: .cascade)
+
 ```
 
 To delete all objects :
 ```swift
-try! Pokemon.er.deleteAll()
+try Pokemon.er.deleteAll()
 ```
 
 ### Queries
 
 To query all objects of one type :
 ```swift
-let pokemons = try! Pokemon.er.all()
+let pokemons = try Pokemon.er.all()
 ```
 
 To query one object by its primaryKey :
@@ -126,7 +141,7 @@ github 'PoissonBallon/EasyRealm'
 
 ## Author
 
-
+* PoissonBallon [@poissonballon](https://twitter.com/poissonballon)
 
 ## License
 
@@ -134,5 +149,5 @@ EasyRealm is available under the MIT license. See the LICENSE file for more info
 
 ## Other
 
-* Thanks to [@error32](http://savinien.net/) for logo 
+* Thanks to [@error32](http://savinien.net/) for logo
 * Thanks to [@trpl](https://github.com/trpl) for text review
