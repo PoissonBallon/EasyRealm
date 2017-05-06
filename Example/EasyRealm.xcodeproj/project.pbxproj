@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B27B1C91EBDDE30008BF579 /* TestQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B27B1C81EBDDE30008BF579 /* TestQuery.swift */; };
 		3B7CD02B1E76DFAF00011116 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7CD01E1E76DF6400011116 /* Pokemon.swift */; };
 		3B7CD02C1E76DFAF00011116 /* PokemonHelp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7CD01F1E76DF6400011116 /* PokemonHelp.swift */; };
 		3B7CD02D1E76DFAF00011116 /* TestDelete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7CD0201E76DF6400011116 /* TestDelete.swift */; };
@@ -38,6 +39,7 @@
 /* Begin PBXFileReference section */
 		061E59C21F2F2720DFCDC799 /* Pods-EasyRealm_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyRealm_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-EasyRealm_Example/Pods-EasyRealm_Example.release.xcconfig"; sourceTree = "<group>"; };
 		0A4DA23DD187DD2E8EEA00C8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		3B27B1C81EBDDE30008BF579 /* TestQuery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestQuery.swift; sourceTree = "<group>"; };
 		3B7CD01E1E76DF6400011116 /* Pokemon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
 		3B7CD01F1E76DF6400011116 /* PokemonHelp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonHelp.swift; sourceTree = "<group>"; };
 		3B7CD0201E76DF6400011116 /* TestDelete.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestDelete.swift; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 				3B7CD01E1E76DF6400011116 /* Pokemon.swift */,
 				3B7CD01F1E76DF6400011116 /* PokemonHelp.swift */,
 				3B7CD0201E76DF6400011116 /* TestDelete.swift */,
+				3B27B1C81EBDDE30008BF579 /* TestQuery.swift */,
 				3B7CD0211E76DF6400011116 /* TestEdit.swift */,
 				3B7CD0221E76DF6400011116 /* TestSave.swift */,
 				3B7CD0231E76DF6400011116 /* TestVariable.swift */,
@@ -402,6 +405,7 @@
 				3B7CD02D1E76DFAF00011116 /* TestDelete.swift in Sources */,
 				3B7CD02F1E76DFAF00011116 /* TestSave.swift in Sources */,
 				3B7CD02B1E76DFAF00011116 /* Pokemon.swift in Sources */,
+				3B27B1C91EBDDE30008BF579 /* TestQuery.swift in Sources */,
 				3B7CD02E1E76DFAF00011116 /* TestEdit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

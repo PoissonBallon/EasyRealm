@@ -8,7 +8,7 @@
 
 import Foundation
 
-enum EasyRealmError:Error {
+public enum EasyRealmError: Error {
   case RealmQueueCantBeCreate
   case ObjectCantBeResolved
   case ObjectHaveNotPrimaryKey

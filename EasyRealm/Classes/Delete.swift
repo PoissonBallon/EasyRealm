@@ -109,6 +109,11 @@ fileprivate extension EasyRealm where T: Object {
       if let object = value as? Object {
         EasyRealm.cascadeDelete(this: object, in: queue)
       }
+      if let list = value as? EasyRealmList {
+        list.children().forEach {
+          EasyRealm.cascadeDelete(this: $0, in: queue)
+        }
+      }
     }
     queue.realm.delete(object)
   }
