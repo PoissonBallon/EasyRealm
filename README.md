@@ -57,7 +57,7 @@ To save an object :
 let pokemon = Pokemon()
 try pokemon.er.save(update: true)
 //OR
-let managed = try pokemon.mr.saved(update: true)
+let managed = try pokemon.er.saved(update: true)
 ```
 
 ### Edit
