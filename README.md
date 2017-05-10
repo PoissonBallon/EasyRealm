@@ -131,7 +131,7 @@ it, simply add the following line to your Podfile:
 #### CocoaPods
 ```ruby
 use_frameworks!
-pod "EasyRealm", '~> 1.1.0'
+pod "EasyRealm", '~> 2.0.0'
 ```
 
 #### Carthage
