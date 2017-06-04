@@ -30,6 +30,7 @@ final class Pokemon: Object {
   dynamic var name: String?
   dynamic var level: Int = 1
   dynamic var pokeball:Pokeball?
+  let specialBoost = RealmOptional<Int>()
   
   override static func primaryKey() -> String? {
     return "name"

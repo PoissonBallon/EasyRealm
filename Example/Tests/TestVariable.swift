@@ -73,7 +73,12 @@ class TestVariable: XCTestCase {
     let pokedex = Pokedex()
     trainer.pokemons.append(HelpPokemon.generateCapturedRandomPokemon())
     trainer.pokedex = pokedex
+    
+    trainer.pokemons.forEach {
+      $0.specialBoost.value = 42
+    }
 
+    
     try! trainer.er.save(update: true)
     let managed = trainer.er.managed!
     XCTAssertTrue(managed.er.isManaged)
@@ -81,6 +86,7 @@ class TestVariable: XCTestCase {
     XCTAssertFalse(managed.pokemons.isEmpty)
     managed.pokemons.forEach {
       XCTAssertTrue($0.er.isManaged)
+      XCTAssertEqual($0.specialBoost.value!, 42)
     }
     
     let unmanaged = managed.er.unmanaged
@@ -89,6 +95,7 @@ class TestVariable: XCTestCase {
     XCTAssertFalse(unmanaged.pokemons.isEmpty)
     unmanaged.pokemons.forEach {
       XCTAssertFalse($0.er.isManaged)
+      XCTAssertEqual($0.specialBoost.value!, 42)
     }
   }
   
