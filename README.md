@@ -29,7 +29,7 @@ EasyRealm import many features as :
 * Deep cascade deleting
 * Deep unmanaged object
 * Get managed object from unmanaged object.
-* Multihread Action (save / edit / delete / query)
+* Multihtread Action (save / edit / delete / query)
 
 ## Promise
 
