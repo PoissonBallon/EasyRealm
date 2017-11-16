@@ -30,7 +30,7 @@ EasyRealm is a micro-framework (less than 200 LOC) that helps you use Realm.
 
   s.ios.deployment_target = '8.0'
   s.source_files = 'EasyRealm/Classes/**/*'
-  s.dependency 'RealmSwift', '~> 2.4'
+  s.dependency 'RealmSwift', '~> 3.0.0'
 
   # s.resource_bundles = {
   #   'EasyRealm' => ['EasyRealm/Assets/*.png']

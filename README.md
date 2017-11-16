@@ -2,7 +2,7 @@
     <img src="Ressources/easy_realm_logo.png" width="200" />
 </h3>
 <h1 align="center">
-  DataModelKit
+  EasyRealm
 </h1>
 
 
@@ -16,6 +16,12 @@
 
 EasyRealm is a micro-framework (less than 200 LOC) that helps you use Realm.
 
+## Versions guides
+
+| Swift     | Realm    | EasyRealm |
+|-----------|----------|-----------|
+| 3.0       | >= 2.4   | 2.0.1     |
+| 3.2 / 4.0 | >= 3.0.0 | >= 3.0.0  |
 
 ## Keys Features
 
