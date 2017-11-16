@@ -1,8 +1,7 @@
 language: objective-c
-osx_image: xcode8.2
+osx_image: xcode9
 xcode_project: Example/EasyRealm.xcworkspace
 before_install:
-  - gem install slather --no-rdoc --no-ri --no-document --quiet
   - gem install fastlane -NV
 before_script:
 #If one of this failed we have error and all process is stopped
@@ -13,10 +12,5 @@ script:
 - fastlane scan -s EasyRealm-Example --device "iPhone 6" --clean --code_coverage
 
 after_success:
-- cd $TRAVIS_BUILD_DIR && slather
-deploy:
-  skip_cleanup: true
-  provider: script
-  script: sh $TRAVIS_BUILD_DIR/scripts/deploy.sh
-  on:
-    tags: true
+- cd $TRAVIS_BUILD_DIR
+- bash <(curl -s https://codecov.io/bash)

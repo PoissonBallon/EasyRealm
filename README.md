@@ -1,26 +1,27 @@
 <h3 align="center">
-  <a href="https://github.com/PoissonBallon/EasyRealm">
     <img src="Ressources/easy_realm_logo.png" width="200" />
-    <br />
-    EasyRealm
-  </a>
 </h3>
+<h1 align="center">
+  EasyRealm
+</h1>
 
-------
-
-# EasyRealm
 
 [![Version](https://img.shields.io/cocoapods/v/EasyRealm.svg?style=flat)](http://cocoapods.org/pods/EasyRealm)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![Platform](https://img.shields.io/cocoapods/p/EasyRealm.svg?style=flat)](http://cocoapods.org/pods/EasyRealm)
-
 [![Build Status](https://travis-ci.org/PoissonBallon/EasyRealm.svg?branch=master)](https://travis-ci.org/PoissonBallon/EasyRealm)
-[![Swift 3](https://img.shields.io/badge/Language-Swift%203-orange.svg)](https://developer.apple.com/swift/)
-[![Coverage Status](https://coveralls.io/repos/github/PoissonBallon/EasyRealm/badge.svg?branch=master)](https://coveralls.io/github/PoissonBallon/EasyRealm?branch=master)
+[![Swift 4](https://img.shields.io/badge/Language-Swift%203-orange.svg)](https://developer.apple.com/swift/)
+[![codecov](https://codecov.io/gh/PoissonBallon/EasyRealm/branch/master/graph/badge.svg)](https://codecov.io/gh/PoissonBallon/EasyRealm)
 [![License](https://img.shields.io/cocoapods/l/EasyRealm.svg?style=flat)](http://cocoapods.org/pods/EasyRealm)
 
 EasyRealm is a micro-framework (less than 200 LOC) that helps you use Realm.
 
+## Versions guides
+
+| Swift     | Realm    | EasyRealm |
+|-----------|----------|-----------|
+| 3.0       | >= 2.4   | 2.0.1     |
+| 3.2 / 4.0 | >= 3.0.0 | >= 3.0.0  |
 
 ## Keys Features
 

@@ -16,6 +16,6 @@ internal protocol EasyRealmList {
 
 extension List:EasyRealmList {
   internal func children() -> [Object] {
-    return self.flatMap{ $0 }
+    return self.flatMap { return $0 as? Object }
   }
 }
