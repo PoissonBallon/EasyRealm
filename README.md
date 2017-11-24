@@ -41,7 +41,7 @@ EasyRealm make 4 promises :
 * EasyRealm never manipulate thread behind your back, you keep full control of your process flow.
 * EasyRealm never handle Error for you.
 
-## Exemples
+## Examples
 
 ### Using
 
