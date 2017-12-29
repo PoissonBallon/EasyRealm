@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'EasyRealm'
-  s.version          = '3.0.0'
+  s.version          = '3.1.0'
   s.summary          = 'EasyRealm is a micro-framework that helps you use Realm.'
 
   # This description is used to generate tags and improve search results.
@@ -35,12 +35,4 @@ EasyRealm is a micro-framework (less than 200 LOC) that helps you use Realm.
 
   s.source_files = 'EasyRealm/Classes/**/*'
   s.dependency 'RealmSwift', '~> 3.0.0'
-
-  # s.resource_bundles = {
-  #   'EasyRealm' => ['EasyRealm/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
