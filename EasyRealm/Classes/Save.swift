@@ -6,7 +6,7 @@
 //
 //
 
-import UIKit
+import Foundation
 import RealmSwift
 
 extension EasyRealm where T:Object {

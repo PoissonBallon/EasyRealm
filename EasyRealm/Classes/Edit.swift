@@ -6,7 +6,7 @@
 //
 //
 
-import UIKit
+import Foundation
 import Realm
 import RealmSwift
 
