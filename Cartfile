@@ -1,2 +1,2 @@
-# Require version 3.0.0 or later
-github "realm/realm-cocoa" >= 3.0.0
+# Require version 3.1.0 or later
+github "realm/realm-cocoa" >= 3.1.0
