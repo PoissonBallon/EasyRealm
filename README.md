@@ -18,10 +18,11 @@ EasyRealm is a micro-framework (less than 200 LOC) that helps you use Realm.
 
 ## Versions guides
 
-| Swift     | Realm    | EasyRealm |
-|-----------|----------|-----------|
-| 3.0       | >= 2.4   | 2.0.1     |
-| 3.2 / 4.0 | >= 3.0.0 | >= 3.0.0  |
+| Swift     | Realm     | EasyRealm |
+|-----------|-----------|-----------|
+| 3.0       | >= 2.4    | 2.0.1     |
+| 3.2 / 4.0 | >= 3.0.0  | >= 3.0.0  |
+| 4.2       | >= 3.10.0 | >= 3.2.0  |
 
 ## Keys Features
 
@@ -132,7 +133,7 @@ it, simply add the following line to your Podfile:
 #### CocoaPods
 ```ruby
 use_frameworks!
-pod "EasyRealm", '~> 2.0.0'
+pod "EasyRealm", '~> 3.2.0'
 ```
 
 #### Carthage
