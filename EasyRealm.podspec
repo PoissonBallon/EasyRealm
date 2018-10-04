@@ -34,5 +34,5 @@ EasyRealm is a micro-framework (less than 200 LOC) that helps you use Realm.
   s.watchos.deployment_target = '2.0'
 
   s.source_files = 'EasyRealm/Classes/**/*'
-  s.dependency 'RealmSwift', '~> 3.1.0'
+  s.dependency 'RealmSwift', '~> 3.10.0'
 end
