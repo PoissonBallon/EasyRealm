@@ -1,11 +1,11 @@
 PODS:
-  - EasyRealm (3.2.0):
-    - RealmSwift (~> 3.10.0)
-  - Realm (3.10.0):
-    - Realm/Headers (= 3.10.0)
-  - Realm/Headers (3.10.0)
-  - RealmSwift (3.10.0):
-    - Realm (= 3.10.0)
+  - EasyRealm (3.4.0):
+    - RealmSwift (~> 3.10)
+  - Realm (3.13.1):
+    - Realm/Headers (= 3.13.1)
+  - Realm/Headers (3.13.1)
+  - RealmSwift (3.13.1):
+    - Realm (= 3.13.1)
 
 DEPENDENCIES:
   - EasyRealm (from `../`)
@@ -20,9 +20,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  EasyRealm: ad8b923c42faae7a0b76a4f31a6f993b45b1abc6
-  Realm: 85ab9e4f779d66f6e9ffeb118dc25b7f130c96ac
-  RealmSwift: 69121c8b86d0ae005fb779efdb10e606732e1c74
+  EasyRealm: 451aaef2b8edd96dcb7afe60f3f3294c15fc45e3
+  Realm: 50071da38fe079e0735e47c9f2eae738c68c5996
+  RealmSwift: 8a1e6a02b7a08cd17a31e3115143fb69fe5f3fb9
 
 PODFILE CHECKSUM: 73d2683af2c7ac771647afb875fecd5c780c7a9f
 

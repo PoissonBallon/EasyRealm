@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'EasyRealm'
-  s.version          = '3.2.0'
+  s.version          = '3.4.0'
   s.summary          = 'EasyRealm is a micro-framework that helps you use Realm.'
 
   # This description is used to generate tags and improve search results.
@@ -34,5 +34,5 @@ EasyRealm is a micro-framework (less than 200 LOC) that helps you use Realm.
   s.watchos.deployment_target = '2.0'
 
   s.source_files = 'EasyRealm/Classes/**/*'
-  s.dependency 'RealmSwift', '~> 3.12'
+  s.dependency 'RealmSwift', '~> 3.10'
 end
