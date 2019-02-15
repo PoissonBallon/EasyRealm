@@ -10,9 +10,9 @@ import Foundation
 import RealmSwift
 
 final class Pokeball:Object {
-  dynamic var identifier = UUID().uuidString
-  dynamic var level = 1
-  dynamic var branding = ""
+  @objc dynamic var identifier = UUID().uuidString
+  @objc dynamic var level = 1
+  @objc dynamic var branding = ""
   
   override static func primaryKey() -> String? {
     return "identifier"
@@ -27,9 +27,9 @@ final class Pokeball:Object {
 }
 
 final class Pokemon: Object {
-  dynamic var name: String?
-  dynamic var level: Int = 1
-  dynamic var pokeball:Pokeball?
+  @objc dynamic var name: String?
+  @objc dynamic var level: Int = 1
+  @objc dynamic var pokeball:Pokeball?
   let specialBoost = RealmOptional<Int>()
   
   override static func primaryKey() -> String? {

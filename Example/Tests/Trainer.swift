@@ -10,8 +10,8 @@ import Foundation
 import RealmSwift
 
 final class Trainer: Object {
-  dynamic var identifier = UUID().uuidString
-  dynamic var pokedex:Pokedex?
+  @objc dynamic var identifier = UUID().uuidString
+  @objc dynamic var pokedex:Pokedex?
   var pokemons = List<Pokemon>()
   
   override static func primaryKey() -> String? {

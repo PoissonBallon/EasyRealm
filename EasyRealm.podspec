@@ -28,11 +28,13 @@ EasyRealm is a micro-framework (less than 200 LOC) that helps you use Realm.
   s.source           = { git: 'https://github.com/PoissonBallon/EasyRealm.git', tag: s.version.to_s }
   s.social_media_url = 'https://twitter.com/poissonballon'
 
+
   s.ios.deployment_target = '8.0'
   s.osx.deployment_target = '10.9'
   s.tvos.deployment_target = '9.0'
   s.watchos.deployment_target = '2.0'
 
   s.source_files = 'EasyRealm/Classes/**/*'
+  s.swift_version = '4.2'
   s.dependency 'RealmSwift', '~> 3.10'
 end

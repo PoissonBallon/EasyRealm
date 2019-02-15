@@ -39,7 +39,7 @@ fileprivate extension Object {
       if let detachable = value as? Object {
         detached.setValue(detachable.easyDetached(), forKey: property.name)
       } else if let detachable = value as? EasyRealmList  {
-        detached.setValue(detachable.children().flatMap { $0.easyDetached() },forKey: property.name)
+        detached.setValue(detachable.children().compactMap { $0.easyDetached() },forKey: property.name)
       } else {
         detached.setValue(value, forKey: property.name)
       }

@@ -33,12 +33,11 @@ class TestSave: XCTestCase {
     let numberOfPokeball = try! Pokeball.er.all()
     XCTAssertEqual(self.testPokemon.count, numberOfPokemon.count)
     XCTAssertEqual(2, numberOfPokeball.count)
-
   }
 
   func testSaveManaged() {
     HelpPokemon.pokemons(with: self.testPokemon).forEach { try! $0.er.save(update: true) }
-    let managedPokemon = testPokemon.flatMap { try! Pokemon.er.fromRealm(with: $0) }
+    let managedPokemon = testPokemon.compactMap { try! Pokemon.er.fromRealm(with: $0) }
     managedPokemon.forEach { try! $0.er.save(update: true) }
   }
   

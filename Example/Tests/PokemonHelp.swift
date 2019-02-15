@@ -12,7 +12,7 @@ import Foundation
 struct HelpPokemon {
   
   static func pokemons(with names:[String]) -> [Pokemon] {
-    return names.flatMap {
+    return names.compactMap {
       let pokemon = Pokemon()
       pokemon.name = $0
       pokemon.level = Int(arc4random()) % 100
@@ -36,7 +36,7 @@ struct HelpPokemon {
   }
   
   static func allPokedex() -> [Pokemon] {
-    return allPokemonName.flatMap {
+    return allPokemonName.compactMap {
       let pokemon = Pokemon()
       pokemon.name = $0
       pokemon.level = Int(arc4random()) % 100
